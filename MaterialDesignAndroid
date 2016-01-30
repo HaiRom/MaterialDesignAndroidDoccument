@@ -3,4 +3,11 @@ Toolbar được tạo ra để thay thế Actionbar, cá nhân mình thấy nó
 Được giới thiệu từ API 21 nhưng anh chàng google cũng cho ta 1 thư viện để có thể chạy nó trên các đời android thấp hơn. đó là android.support.v7.widget.Toolbar
 
 2.AppBarLayout:<!--Appbar layout giúp cố định layout cho appbar-->
-AppBarLayout hỗ trợ các scroll flags ảnh hưởng tới cách các child view phản hồi khi cuộn (vd khi cuộn ra khỏi màn hình). Có cái mới đó là SCROLL_FLAG_SNAP, để đảm bảo là khi ngừng cuộn, view sẽ không xuất hiện nửa vời. Mà thay vào đó, nó sẽ được cuộn tới mép gần nhất, hoặc là hiển thị hoàn toàn hoặc là biến mất luôn khỏi màn hình. Bạn cũng sẽ thấy là AppBarLayout có thể cho phép người dùng bắt đầu cuộn từ trong AppBarLayout thay vì chỉ từ scrollable view – hành động này có thể được điều khiển bằng việc thêm vào một DragCallback.
+AppBarLayout hỗ trợ các scroll flags ảnh hưởng tới cách các child view phản hồi khi cuộn 
+(vd khi cuộn ra khỏi màn hình). Có cái mới đó là SCROLL_FLAG_SNAP, để đảm bảo là khi ngừng cuộn, 
+view sẽ không xuất hiện nửa vời. Mà thay vào đó, nó sẽ được cuộn tới mép gần nhất, hoặc là hiển
+ thị hoàn toàn hoặc là biến mất luôn khỏi màn hình. Bạn cũng sẽ thấy là AppBarLayout có thể cho phép
+ người dùng bắt đầu cuộn từ trong AppBarLayout thay vì chỉ từ scrollable view – hành động này có thể 
+được điều khiển bằng việc thêm vào một DragCallback.
+
+https://viblo.asia/cuasodayleo/posts/n157G5E8GAje
